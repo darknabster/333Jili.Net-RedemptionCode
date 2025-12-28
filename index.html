@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Redemption Code</title>
+
+<style>
+    :root {
+        --bg-main: #0b3b3a;
+        --card-bg: #08294b;
+        --text-white: #ffffff;
+        --text-yellow: #ffcc00;
+        --text-red: #ff3b3b;
+        --text-green: #00e676;
+        --button-blue: #1e88e5;
+        --button-dark: #2b3f6b;
+    }
+
+    * {
+        box-sizing: border-box;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    }
+
+    body {
+        margin: 0;
+        background: var(--bg-main);
+        color: var(--text-white);
+    }
+
+    /* Header */
+    .header {
+        height: 56px;
+        background: #0a4f4a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+        font-size: 18px;
+        position: relative;
+    }
+
+    .header .back {
+        position: absolute;
+        left: 16px;
+        font-size: 20px;
+    }
+
+    /* Top status */
+    .status {
+        background: #0b5f58;
+        padding: 10px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    /* Card */
+    .card {
+        background: var(--card-bg);
+        margin: 16px;
+        padding: 16px;
+        border-radius: 10px;
+    }
+
+    .title {
+        font-size: 20px;
+        font-weight: 700;
+        color: var(--text-yellow);
+        margin-bottom: 12px;
+    }
+
+    .code-row {
+        font-size: 14px;
+        margin-bottom: 10px;
+        line-height: 1.5;
+    }
+
+    .code-row strong {
+        font-weight: 700;
+    }
+
+    .valid {
+        color: var(--text-green);
+        font-weight: 600;
+        margin-left: 4px;
+    }
+
+    .today {
+        background: #ff3b3b;
+        padding: 6px 10px;
+        border-radius: 6px;
+        display: inline-block;
+        margin: 8px 0;
+        font-weight: 700;
+    }
+
+    .coming {
+        color: #ffcc00;
+        margin-left: 4px;
+    }
+
+    .info {
+        font-size: 13px;
+        margin-top: 12px;
+        opacity: 0.9;
+    }
+
+    /* Buttons */
+    .buttons {
+        display: flex;
+        gap: 12px;
+        margin-top: 14px;
+    }
+
+    .btn {
+        flex: 1;
+        padding: 10px 0;
+        border-radius: 6px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .btn-facebook {
+        background: var(--button-dark);
+    }
+
+    .btn-telegram {
+        background: var(--button-blue);
+    }
+</style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="back">‹</div>
+        Details
+    </div>
+
+    <!-- Status -->
+    <div class="status">
+        ✅ redeem ang code ✅
+    </div>
+
+    <!-- Card -->
+    <div class="card">
+        <div class="title">✨ Today's Updated Redemption Code</div>
+
+        <div class="code-row">
+            Yesterday's Code: <strong>333146</strong>
+            <span class="valid">Valid ✅</span>
+        </div>
+
+        <div class="code-row today">
+            Today's Code: <strong>333147</strong>
+            <span class="valid">Valid ✅</span>
+        </div>
+
+        <div class="code-row">
+            Tomorrow's Code: <strong>333148</strong>
+            <span class="coming">Coming Soon ⏳</span>
+        </div>
+
+        <div class="info">
+            📣 Millions of players have already received the redemption code!
+        </div>
+
+        <div class="info">
+            Follow the official platform channels for the latest updates:
+        </div>
+
+        <div class="buttons">
+            <a href="#" class="btn btn-facebook">Facebook</a>
+            <a href="#" class="btn btn-telegram">Telegram</a>
+        </div>
+    </div>
+
+</body>
+</html>
